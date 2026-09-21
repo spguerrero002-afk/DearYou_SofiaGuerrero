@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Your Cart | DearYou</title>
+
+    <link rel="stylesheet"
+          href="css/bootstrap.min.css">
+
+    <link rel="stylesheet"
+          href="css/dearyou.css">
+
+</head>
+
+
+<body id="cartPage">
+
+
+<!-- ========================================
+     NAVBAR
+========================================= -->
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+
+    <div class="container">
+
+        <a class="navbar-brand logo"
+           href="index.html">
+
+            DearYou<span>♥</span>
+
+        </a>
+
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menuPrincipal">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <div class="collapse navbar-collapse"
+             id="menuPrincipal">
+
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                       href="index.html">
+
+                        Home
+
+                    </a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                       href="index.html#productos">
+
+                        Products
+
+                    </a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                       href="index.html#nosotros">
+
+                        About
+
+                    </a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                       href="index.html#mensaje">
+
+                        Your Message
+
+                    </a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link active"
+                       href="cart.html">
+
+                        Cart (<span id="cartCount">0</span>)
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- ========================================
+     CART
+========================================= -->
+
+<main class="cart-page">
+
+    <div class="container">
+
+
+        <div class="cart-heading">
+
+            <p class="eyebrow">
+                DEARYOU
+            </p>
+
+            <h1>
+                Your Cart
+            </h1>
+
+            <p>
+                A few little things chosen for you.
+            </p>
+
+        </div>
+
+
+        <div class="row g-5">
+
+
+            <!-- PRODUCTS -->
+
+            <div class="col-lg-8">
+
+                <div id="cartItems">
+
+                    <!-- JAVASCRIPT INSERTA PRODUCTOS -->
+
+                </div>
+
+            </div>
+
+
+
+            <!-- SUMMARY -->
+
+            <div class="col-lg-4">
+
+                <aside class="cart-summary">
+
+                    <h2>
+                        Order Summary
+                    </h2>
+
+
+                    <div class="summary-line">
+
+                        <span>
+                            Subtotal
+                        </span>
+
+                        <strong id="cartSubtotal">
+                            $0 MXN
+                        </strong>
+
+                    </div>
+
+
+                    <div class="summary-line">
+
+                        <span>
+                            Shipping
+                        </span>
+
+                        <span>
+                            Free
+                        </span>
+
+                    </div>
+
+
+                    <hr>
+
+
+                    <div class="summary-total">
+
+                        <span>
+                            Total
+                        </span>
+
+                        <strong id="cartTotal">
+                            $0 MXN
+                        </strong>
+
+                    </div>
+
+
+                    <button id="checkoutButton"
+                            class="btn btn-dearyou checkout-button">
+
+                        Checkout
+
+                    </button>
+
+
+                    <a href="index.html#productos"
+                       class="continue-shopping">
+
+                        Continue shopping
+
+                    </a>
+
+                </aside>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+
+<!-- ========================================
+     FOOTER
+========================================= -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-md-4">
+
+                <p class="footer-logo">
+                    DearYou♡
+                </p>
+
+            </div>
+
+
+            <div class="col-md-4 text-md-center">
+
+                <p>
+                    Beauty · Self-Love · Expression
+                </p>
+
+            </div>
+
+
+            <div class="col-md-4 text-md-end">
+
+                <p>
+                    A kinder tomorrow starts with you.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<script src="js/dearyou.js"></script>
+
+
+</body>
+
+</html>
